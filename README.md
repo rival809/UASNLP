@@ -1,1 +1,1 @@
-# Google Play Store apps reviews scraping and Text Analytics (Sentiment Analysis)
+# Indodax Apps Review on Google Play Store Scraping and Text Analytics (Sentiment Analysis) 
