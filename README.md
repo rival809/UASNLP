@@ -2,7 +2,7 @@
 
 
 Project ini dibuat untuk memenuhi tugas akhir mata kuliah NLP pada Universitas Pendidikan Indonesia Kampus Purwakarta
-Project Team :
+\nProject Team :
 - Muhammad Felmi Adhiarahman
 - Rival Ramadhan
 
