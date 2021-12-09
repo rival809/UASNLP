@@ -1,0 +1,8 @@
+sastrawi
+nltk
+pandas
+numpy
+matplotlib
+seaborn
+sklearn
+datetime
