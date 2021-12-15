@@ -94,10 +94,19 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <h1 id="projectstructure">4. Project Structure</h1>
   <ol>
     <li>Data</li>
+      Data yang digunakan merupakan data hasil scrapping menggunakan file NLP_Google_Play_Review_Data_Scraper.ipynb
+      Untuk menentukan aplikasi yang akan ditarik datanya maka perlu dikonfigurasikan nama package aplikasi sesuai dengan yang diinginkan. Untuk merubahnya hanya perlu mengganti baris kode pada baris berikut ini
+      ```
+      app_packages = [
+     'id.co.bitcoin',
+      ]
+      ```
+    </br>
     <li>Model</li>
     <li>Output</li>
     <li>Parameter</li>
     <li>Source</li>
+
   </ol>
 
 <br/>
@@ -109,4 +118,3 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
 <h1 id="evaluation">6. Evaluation</h1>
 <div><p align="justify">Dataset yang digunakan, alur pengembangan project.
-
