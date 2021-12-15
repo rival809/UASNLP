@@ -21,7 +21,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary><h2>Project Documentation</h2></summary>
+  <summary>Table of Content</summary>
   <ol>
     <li><a href="#about">About The Project</a></li>
     <li>
@@ -103,10 +103,6 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
   </br>
     Data yang diperoleh dari hasil scarping merupakan file dalam format .csv. Data tersebut antara lain seperti
-    | Date          | Content       |
-    | ------------- | ------------- |
-    | Content Cell  | Content Cell  |
-    | Content Cell  | Content Cell  |
 
   </br>
     <li>Model</li>
