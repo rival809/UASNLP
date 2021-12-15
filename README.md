@@ -93,11 +93,11 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
 <h1 id="projectstructure">4. Project Structure</h1>
   <ol>
-    <li><a Data</a></li>
-    <li><a Model</a></li>
-    <li><a Output</a></li>
-    <li><a Parameter</a></li>
-    <li><a Source</a></li>
+    <li>Data</li>
+    <li>>Model</li>
+    <li>Output</li>
+    <li>Parameter</li>
+    <li>Source</li>
   </ol>
 
 <br/>
