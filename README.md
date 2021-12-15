@@ -48,11 +48,21 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <br/>
 <br/>
 
+<style>
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+
 <hr/>
 
 <h1 id="about">1. About Project</h1>
   <h2 id="bg">Background</h2>
-    Belakangan ini Cryptocurrency sedang banyak digemari di kalangan masyarakat Indonesia dengan tujuan yang bermacam - macam, ada yang hanya sekedar menabung sebagai media berinvestasi, hingga juga pencarian keuntungan dalam jangka waktu yang cepat (scalping). Untuk melakukan pembelian crypto, masyarakat tentunya diharuskan menggunakan suatu exchange atau aplikasi tempat menjual belikan crypto yang tentunya harus sudah memiliki izin secara resmi dari OJK Indonesia. Salah satu exchange terkenal dan mudah untuk digunakan yakni Indodax. Namun siapa sangka bahwa exchanger resmi sekalipun masih memiliki beberapa kekurangan sehingga menimbulkan pro dan kontra yang terjadi di masyarakat. Maka dari itu sentiment analisis dilakukan untuk melakukan pengukuran sentiment dari opini masyarakat yang tersebar dalam review google playstore.
+    <div>Belakangan ini Cryptocurrency sedang banyak digemari di kalangan masyarakat Indonesia dengan tujuan yang bermacam - macam, ada yang hanya sekedar menabung sebagai media berinvestasi, hingga juga pencarian keuntungan dalam jangka waktu yang cepat (scalping). Untuk melakukan pembelian crypto, masyarakat tentunya diharuskan menggunakan suatu exchange atau aplikasi tempat menjual belikan crypto yang tentunya harus sudah memiliki izin secara resmi dari OJK Indonesia. Salah satu exchange terkenal dan mudah untuk digunakan yakni Indodax. Namun siapa sangka bahwa exchanger resmi sekalipun masih memiliki beberapa kekurangan sehingga menimbulkan pro dan kontra yang terjadi di masyarakat. Maka dari itu sentiment analisis dilakukan untuk melakukan pengukuran sentiment dari opini masyarakat yang tersebar dalam review google playstore.</div>
+
+  <br/>
+
   <h2 id="pps">Purpose</h2>
     Project ini dibuat untuk ...
 
