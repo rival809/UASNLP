@@ -94,7 +94,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <h1 id="projectstructure">4. Project Structure</h1>
   <ol>
     <li>Data</li>
-    <li>>Model</li>
+    <li>Model</li>
     <li>Output</li>
     <li>Parameter</li>
     <li>Source</li>
