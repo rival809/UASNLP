@@ -63,6 +63,31 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 </br>
 <h1 id="getting-started">2. Getting Started</h1>
   <h2 id="pre">Prerequisites</h2>
-    Bahasa yang digunakan dalam melakukan pembuatan project ini merupakan `Python v.3.9.7` yang dibangun diatas virtual environment Anaconda. Library dan dependency yang dibutuhkan dapat di lihat pada [requirements.txt](https://github.com/rival809/UASNLP/blob/master/requirements.txt)
-  
+    Bahasa yang digunakan dalam melakukan pembuatan project ini merupakan  Python v.3.9.7  yang dibangun diatas virtual environment Anaconda. Library dan dependency yang dibutuhkan dapat di lihat pada [requirements.txt](https://github.com/rival809/UASNLP/blob/master/requirements.txt)
   </br>
+  </br>
+  <h2 id="tools">Tools</h2>
+    Tools yang digunakan dalam melakukan pembuatan project ini antara lain :
+
+    - Visual Studio Code / Google Colaboratory
+      Merupakan IDE yang digunakan untuk melakukan penulisan code menggunakan bahasa python
+
+    - Google Spreadsheet
+      Digunakan sebagai tools untuk melakukan cleaning data, dan data labeling secara manual
+
+    - Anaconda
+      Digunakan sebagai package manager yang berfungsi untuk membangun sebuah virtual environtment
+
+</br>
+<h1 id="usage">3. Usage</h1>
+  <h2 id="install">Installation</h2>
+    Hal yang pertama kali dilakukan untuk menjalankan project ini yaitu :
+    
+    1. Melakukan instalasi IDE Visual Studio Code sebagai tools yang akan digunakan dalam melakukan pembuatan code. Jika tidak maka bisa menggunakan Google Colab secara online
+    2. Download / Clone project ini ke dalam local storage pada PC anda
+    3. Buka folder menggunakan IDE Visual Studio Code
+    4. Atur kernel menggunakan virtual environtment bawaan yang sudah terintegrasi dengan Anaconda
+    5. Buka terminal dalam Visual Studio Code dan lakukan instalasi requirements dengan command 
+      `pip install -r requirements.txt`
+
+  <h2 id="install"></h2>
