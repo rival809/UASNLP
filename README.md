@@ -103,7 +103,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <br/>
 
 <h1 id="metrics">5. Metrics</h1>
-<div><p align="justify">1. Accuration.</p></div>
+<div><p align="justify">1. Accuracy.</p></div>
 
 <br/>
 
