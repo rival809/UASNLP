@@ -23,12 +23,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <details>
   <summary><h2>Project Documentation</h2></summary>
   <ol>
-    <li>
-      <a href="#about">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about">About The Project</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -36,12 +31,10 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#objective">Objective</a></li>
+    <li><a href="#projectstructure">Project Structure</a></li>
+    <li><a href="#metrics">Metrics</a></li>
+    <li><a href="#evaluation">Evaluation</a></li>
   </ol>
 </details>
 <br/>
@@ -62,3 +55,30 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
 <br/>
 <h1 id="getting-started">2. Getting Started</h1>
+
+<br/>
+
+<h1 id="objective">3. Objective</h1>
+<div><p align="justify">1. Sistem dapat menampilkan sentimen review aplikasi yang diberikan.</p></div>
+
+<br/>
+
+<h1 id="projectstructure">4. Project Structure</h1>
+  <ol>
+    <li><a Data</a></li>
+    <li><a Model</a></li>
+    <li><a Output</a></li>
+    <li><a Parameter</a></li>
+    <li><a Source</a></li>
+  </ol>
+
+<br/>
+
+<h1 id="metrics">5. Metrics</h1>
+<div><p align="justify">1. Accuration.</p></div>
+
+<br/>
+
+<h1 id="evaluation">6. Evaluation</h1>
+<div><p align="justify">Dataset yang digunakan, alur pengembangan project.</p></div>
+<br/>
