@@ -51,7 +51,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <hr/>
 
 <h1 id="about">1. About Project</h1>
-  ![alt text](https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_Indodax.png)
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_Indodax.png" alt="Indodax"/>
   <h2 id="bg">Background</h2>
     <div><p align="justify">Belakangan ini Cryptocurrency sedang banyak digemari di kalangan masyarakat Indonesia dengan tujuan yang bermacam - macam, ada yang hanya sekedar menabung sebagai media berinvestasi, hingga juga pencarian keuntungan dalam jangka waktu yang cepat (scalping). Untuk melakukan pembelian crypto, masyarakat tentunya diharuskan menggunakan suatu exchange atau aplikasi tempat menjual belikan crypto yang tentunya harus sudah memiliki izin secara resmi dari OJK Indonesia. Salah satu exchange terkenal dan mudah untuk digunakan yakni Indodax. Namun siapa sangka bahwa exchanger resmi sekalipun masih memiliki beberapa kekurangan sehingga menimbulkan pro dan kontra yang terjadi di masyarakat. Maka dari itu sentiment analisis dilakukan untuk melakukan pengukuran sentiment dari opini masyarakat yang tersebar dalam review google playstore.</p></div>
 
