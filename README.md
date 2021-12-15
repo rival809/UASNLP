@@ -55,8 +55,6 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
 </br>
 <h1 id="getting-started">2. Getting Started</h1>
-</p></div>
-<br/>
   <h2 id="pre">Prerequisites</h2>
     Bahasa yang digunakan dalam melakukan pembuatan project ini merupakan  Python v.3.9.7  yang dibangun diatas virtual environment Anaconda. Library dan dependency yang dibutuhkan dapat di lihat pada [requirements.txt](https://github.com/rival809/UASNLP/blob/master/requirements.txt)
   </br>
@@ -87,7 +85,10 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
   <h2 id="install"></h2>
   
 <h1 id="objective">3. Objective</h1>
-<div><p align="justify">1. Sistem dapat menampilkan sentimen review aplikasi yang diberikan.</p></div>
+
+    1. Sistem dapat menarik data sesuai dengan aplikasi yang telah didefinisikan.
+    2. Sistem dapat melakukan pengukuran akurasi berdasarkan berbagai classifier.
+    2. Sistem dapat menampilkan sentimen review aplikasi yang diberikan.
 
 <br/>
 
@@ -102,11 +103,13 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       ]
 
   </br>
-    Data yang diperoleh dari hasil scarping merupakan file dalam format .csv. Data tersebut antara lain seperti
+    Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
 
   </br>
     <li>Model</li>
+
     <li>Output</li>
+
     <li>Parameter</li>
     <li>Source</li>
 
@@ -115,8 +118,8 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <br/>
 
 <h1 id="metrics">5. Metrics</h1>
-<div><p align="justify">1. Accuracy.</p></div>
-
+  <div><p align="justify">1. Accuracy.</p></div>
+    Metric akurasi kami gunakan karena nilai dari conffusion matrix False Positive dan False Negative hampir serupa, maka dari itu metrik akurasi akan lebih efektif untuk digunakan. 
 <br/>
 
 <h1 id="evaluation">6. Evaluation</h1>
