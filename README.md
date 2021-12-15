@@ -102,6 +102,13 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       ]
 
   </br>
+    Data yang diperoleh dari hasil scarping merupakan file dalam format .csv. Data tersebut antara lain seperti
+    | First Header  | Second Header |
+    | ------------- | ------------- |
+    | Content Cell  | Content Cell  |
+    | Content Cell  | Content Cell  |
+
+  </br>
     <li>Model</li>
     <li>Output</li>
     <li>Parameter</li>
