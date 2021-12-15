@@ -75,7 +75,6 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
 </br>
 
-<h1 id="usage">3. Usage</h1>
   <h2 id="install">Installation</h2>
     Hal yang pertama kali dilakukan untuk menjalankan project ini yaitu :
     
@@ -85,7 +84,6 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
     4. Atur kernel menggunakan virtual environtment bawaan yang sudah terintegrasi dengan Anaconda
     5. Buka terminal dalam Visual Studio Code dan lakukan instalasi requirements dengan command 
       `pip install -r requirements.txt`
-
   <h2 id="install"></h2>
   
 <h1 id="objective">3. Objective</h1>
