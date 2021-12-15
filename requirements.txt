@@ -6,3 +6,4 @@ matplotlib
 seaborn
 sklearn
 datetime
+google_play_scraper
