@@ -1,13 +1,13 @@
 # Indodax Apps Review on Google Play Store Scraping and Text Analytics (Sentiment Analysis)
 
 Project ini dibuat untuk memenuhi tugas akhir mata kuliah NLP pada Universitas Pendidikan Indonesia Kampus Purwakarta
-<br/>
+</br>
 Project Team :
 
 - Muhammad Felmi Adhiarahman
 - Rival Ramadhan
 
-<br/>
+</br>
 
 Project ini merupakan Sentiment Analysis yang mencakup :
 
@@ -15,7 +15,7 @@ Project ini merupakan Sentiment Analysis yang mencakup :
 - Sampling Data
 - Sentiment Analysis
 
-<br/>
+</br>
 
 Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
@@ -44,21 +44,25 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-<br/>
-<br/>
-<br/>
+</br>
+</br>
+</br>
 
-<hr/>
+</hr>
 
 <h1 id="about">1. About Project</h1>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_Indodax.png" alt="Indodax"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_Indodax.png" alt="Logo Indodax"/>
   <h2 id="bg">Background</h2>
     <div><p align="justify">Belakangan ini Cryptocurrency sedang banyak digemari di kalangan masyarakat Indonesia dengan tujuan yang bermacam - macam, ada yang hanya sekedar menabung sebagai media berinvestasi, hingga juga pencarian keuntungan dalam jangka waktu yang cepat (scalping). Untuk melakukan pembelian crypto, masyarakat tentunya diharuskan menggunakan suatu exchange atau aplikasi tempat menjual belikan crypto yang tentunya harus sudah memiliki izin secara resmi dari OJK Indonesia. Salah satu exchange terkenal dan mudah untuk digunakan yakni Indodax. Namun siapa sangka bahwa exchanger resmi sekalipun masih memiliki beberapa kekurangan sehingga menimbulkan pro dan kontra yang terjadi di masyarakat. Maka dari itu sentiment analisis dilakukan untuk melakukan pengukuran sentiment dari opini masyarakat yang tersebar dalam review google playstore.</p></div>
 
-  <br/>
+  </br>
 
   <h2 id="pps">Purpose</h2>
     Project ini dibuat untuk ...
 
-<br/>
+</br>
 <h1 id="getting-started">2. Getting Started</h1>
+  <h2 id="pre">Prerequisites</h2>
+    <div><p align="justify">Bahasa yang digunakan dalam melakukan pembuatan project ini merupakan ```Python v.3.9.7``` yang dibangun diatas virtual environtmen Anaconda. Library dan dependency yang dibutuhkan dapat di lihat pada requirements.txt.</p></div>
+  
+  </br>
