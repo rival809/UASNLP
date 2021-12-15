@@ -63,6 +63,6 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 </br>
 <h1 id="getting-started">2. Getting Started</h1>
   <h2 id="pre">Prerequisites</h2>
-    Bahasa yang digunakan dalam melakukan pembuatan project ini merupakan `Python v.3.9.7` yang dibangun diatas virtual environment Anaconda. Library dan dependency yang dibutuhkan dapat di lihat pada requirements.txt.
+    <div><p align="justify">Bahasa yang digunakan dalam melakukan pembuatan project ini merupakan Python v.3.9.7 yang dibangun diatas virtual environment Anaconda. Library dan dependency yang dibutuhkan dapat di lihat pada requirements.txt.</p></div>
   
   </br>
