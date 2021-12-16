@@ -51,7 +51,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
   </br>
 
   <h2 id="pps">Purpose</h2>
-    Project ini dibuat untuk ...
+    Project ini dibuat untuk memenuhi tugas akhir mata kuliah NLP. Project ini berfungsi sebagai acuan untuk melihat seberapa besar sentimen yang dihasilkan berdasarkan opini masyarakat yang diambil dari review pada suatu aplikasi di Google Play Store. Pada kasus kali ini, kami mengambil aplikasi Indodax karena merupakan aplikasi exchanger cryptocurrency yang saat ini paling banyak digunakan oleh masyarakat di Indonesia. Namun tentunya aplikasi yang ingin dilihat sentimennya, dapat kita ubah sesuai dengan keinginan.
 
 </br>
 <h1 id="getting-started">2. Getting Started</h1>
@@ -95,13 +95,15 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <h1 id="projectstructure">4. Project Structure</h1>
   <ol>
     <li>Data</li>
-    <ul>Data yang digunakan merupakan data hasil scrapping menggunakan file NLP_Google_Play_Review_Data_Scraper.ipynb. Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
-    Untuk menentukan aplikasi yang akan ditarik datanya maka perlu dikonfigurasikan nama package aplikasi sesuai dengan yang diinginkan. Untuk merubahnya hanya perlu mengganti baris kode pada baris berikut ini
+      Data yang digunakan merupakan data hasil scrapping menggunakan file NLP_Google_Play_Review_Data_Scraper.ipynb
+      Untuk menentukan aplikasi yang akan ditarik datanya maka perlu dikonfigurasikan nama package aplikasi sesuai dengan yang diinginkan. Untuk merubahnya hanya perlu mengganti baris kode pada baris berikut ini
 
       app_packages = [
      'id.co.bitcoin',
       ]
-  </ul>
+
+    Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
+
     <li>Model</li>
     <li>Output</li>
     <li>Parameter</li>
