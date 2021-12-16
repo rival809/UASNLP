@@ -114,8 +114,12 @@ Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang be
     Akurasi dari Naive Bayes :  66%
 
 Model dengan akurasi yang paling tinggi lalu akan digunakan untuk menentukan sentiment analisis pada tahap selanjutnya
+
   <li>Output</li>
-    <ul>Berisi hasil dari program yang dijalankan</ul>
+  Tahapan selanjutnya adalah prediction, dimana model yang telah difitting tadi lalu digunakan sebagai acuan untuk melakukan prediksi, sehingga dihasilkan sentimen sebagai berikut :
+
+  <img src="output\hasil_sentimen.png" alt="Hasil sentimen"/>
+  
   <li>Parameter</li>
   <li>Source</li>
     <ul>Berisi notebook projek</ul>
