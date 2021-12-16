@@ -103,6 +103,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       ]
 
 Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
+Setelah data berhasil kita dapatkan, lalu tahapan selanjutnya yaitu cleaning data, yang dapat kita lakukan dengan menjalankan fungsi text preprocessing yang mencakup text cleaning dengan regex, stemmer, stopword, tokenizer, dan juga vectorization.
 
   <li>Model</li>
     Pemodelan dilakukan menggunakan beberapa classifier dari metode machine learning dengan pembagian dataset untuk data train sebanyak 80% dan data test sebanyak 20% yang menghasilkan akurasi berikut ini :
@@ -119,7 +120,13 @@ Model dengan akurasi yang paling tinggi lalu akan digunakan untuk menentukan sen
   Tahapan selanjutnya adalah prediction, dimana model yang telah difitting tadi lalu digunakan sebagai acuan untuk melakukan prediksi, sehingga dihasilkan sentimen sebagai berikut :
 
   <img src="output\hasil_sentimen.png" alt="Hasil sentimen"/>
-  
+
+Hasil prediksi sentimen yang didapatkan untuk review aplikasi Indodax adalah :
+
+    Positif = (404) 33,7%
+    Netral = (539) 45%
+    Negatif = (256) 21,3%
+
   <li>Parameter</li>
   <li>Source</li>
   Berisi notebook projek
