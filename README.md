@@ -102,14 +102,10 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
      'id.co.bitcoin',
       ]
 
-  </br>
     Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
 
-  </br>
     <li>Model</li>
-
     <li>Output</li>
-
     <li>Parameter</li>
     <li>Source</li>
 
