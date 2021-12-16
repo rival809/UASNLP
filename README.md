@@ -99,15 +99,15 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       Untuk menentukan aplikasi yang akan ditarik datanya maka perlu dikonfigurasikan nama package aplikasi sesuai dengan yang diinginkan. Untuk merubahnya hanya perlu mengganti baris kode pada baris berikut ini
 
       app_packages = [
-     'id.co.bitcoin',
+    'id.co.bitcoin',
       ]
 
-    Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
+      Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
 
-    <li>Model</li>
-    <li>Output</li>
-    <li>Parameter</li>
-    <li>Source</li>
+  <li>Model</li>
+  <li>Output</li>
+  <li>Parameter</li>
+  <li>Source</li>
 
   </ol>
 
