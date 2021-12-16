@@ -51,7 +51,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
   </br>
 
   <h2 id="pps">Purpose</h2>
-    Project ini dibuat untuk ...
+    Project ini dibuat untuk memenuhi tugas akhir mata kuliah NLP. Project ini berfungsi sebagai acuan untuk melihat seberapa besar sentimen yang dihasilkan berdasarkan opini masyarakat yang diambil dari review pada suatu aplikasi di Google Play Store. Pada kasus kali ini, kami mengambil aplikasi Indodax karena merupakan aplikasi exchanger cryptocurrency yang saat ini paling banyak digunakan oleh masyarakat di Indonesia. Namun tentunya aplikasi yang ingin dilihat sentimennya, dapat kita ubah sesuai dengan keinginan.
 
 </br>
 <h1 id="getting-started">2. Getting Started</h1>
@@ -95,27 +95,30 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <h1 id="projectstructure">4. Project Structure</h1>
   <ol>
     <li>Data</li>
-    <ul>Data yang digunakan merupakan data hasil scrapping menggunakan file NLP_Google_Play_Review_Data_Scraper.ipynb. Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
-    Untuk menentukan aplikasi yang akan ditarik datanya maka perlu dikonfigurasikan nama package aplikasi sesuai dengan yang diinginkan. Untuk merubahnya hanya perlu mengganti baris kode pada baris berikut ini
+      Data yang digunakan merupakan data hasil scrapping menggunakan file NLP_Google_Play_Review_Data_Scraper.ipynb
+      Untuk menentukan aplikasi yang akan ditarik datanya maka perlu dikonfigurasikan nama package aplikasi sesuai dengan yang diinginkan. Untuk merubahnya hanya perlu mengganti baris kode pada baris berikut ini
 
       app_packages = [
-     'id.co.bitcoin',
+    'id.co.bitcoin',
       ]
-  </ul>
-    <li>Model</li>
-      <ul>Dilakukan pemodelan menggunakan beberapa metode machine learning seperti:
 
-  1. Decision Tree
-  2. Logistic Regression
-  3. Random Forest Classifier
-  4. Support Vector Machine
+Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
 
-      Lalu performa model - model tersebut akan dibandingkan dengan melihat metric `accuracy` untuk dipilih sebagai model terbaik.</ul>
-    <li>Output</li>
-      <ul>Berisi hasil dari program yang dijalankan</ul>
-    <li>Source</li>
-      <ul>Berisi notebook projek</ul>
+  <li>Model</li>
+    Pemodelan dilakukan menggunakan beberapa classifier dari metode machine learning dengan pembagian dataset untuk data train sebanyak 80% dan data test sebanyak 20% yang menghasilkan akurasi berikut ini :
 
+    Akurasi dari Decision Tree Classifier :  50%
+    Akurasi dari Logistic Regression :  64%
+    Akurasi dari Random Forest Classifier :  64%
+    Akurasi dari SVM :  65%
+    Akurasi dari Naive Bayes :  66%
+
+Model dengan akurasi yang paling tinggi lalu akan digunakan untuk menentukan sentiment analisis pada tahap selanjutnya
+  <li>Output</li>
+    <ul>Berisi hasil dari program yang dijalankan</ul>
+  <li>Parameter</li>
+  <li>Source</li>
+    <ul>Berisi notebook projek</ul>
   </ol>
 
 <br/>
@@ -126,4 +129,4 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <br/>
 
 <h1 id="evaluation">6. Evaluation</h1>
-<div><p align="justify">Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.</div>
+<div><p align="justify">Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data dan 700 digunakan sebagai data sampling</div>
