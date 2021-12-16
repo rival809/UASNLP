@@ -113,7 +113,7 @@ Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang be
     Akurasi dari SVM :  65%
     Akurasi dari Naive Bayes :  66%
 
-    Model dengan akurasi yang paling tinggi lalu akan digunakan untuk menentukan sentiment analisis pada tahap selanjutnya
+  Model dengan akurasi yang paling tinggi lalu akan digunakan untuk menentukan sentiment analisis pada tahap selanjutnya
   <li>Output</li>
   Berisi hasil dari program yang dijalankan
   <li>Parameter</li>
