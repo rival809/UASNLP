@@ -122,7 +122,7 @@ Model dengan akurasi yang paling tinggi lalu akan digunakan untuk menentukan sen
   
   <li>Parameter</li>
   <li>Source</li>
-    <ul>Berisi notebook projek</ul>
+  Berisi notebook projek
   </ol>
 
 <br/>
