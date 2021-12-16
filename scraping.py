@@ -15,6 +15,7 @@ from google_play_scraper import Sort, reviews, app
 sns.set(style='whitegrid', palette='muted', font_scale=1.2)
 
 ##Aplikasi yang akan dilakukan data scraping, ditulis nama packagenya. Dapat ditambahkan lebih dari 1 aplikasi
+##Disini kami mengambil review dari aplikasi indodax di playstore
 app_packages = [
   'id.co.bitcoin',
 ]
@@ -55,7 +56,7 @@ def print_json(json_object):
       ax.set_title(format_title(ai['title']))
       ax.axis('off')
 
-##We'll store the app information for later by converting the JSON objects into a Pandas dataframe and saving the result into a CSV file:
+##Konversi JSON objects menjadi Pandas dataframe dan menyimpan hasil menjadi CSV file:
 app_infos_df = pd.DataFrame(app_infos)
 app_infos_df.to_csv('apps.csv', index=None, header=True)
 
@@ -80,6 +81,6 @@ for ap in tqdm(app_packages):
 
 ##print_json(app_reviews[0])
 
-##Export data
+##Export data ke csv
 app_reviews_df = pd.DataFrame(app_reviews)
 app_reviews_df.to_csv(f'output\Hasil Scraping.csv', index=None, header=True)

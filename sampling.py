@@ -1,10 +1,9 @@
 import numpy as np
 import pandas as pd
-import os
 
 from datetime import datetime
 
-##Load data ke memmory menggunakan library pandas. 
+##Load data ke memory menggunakan library pandas. 
 data = pd.read_csv('data\Data Scraper - Indodax.csv')
 
 ##Menghapus data yang berduplikasi
