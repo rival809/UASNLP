@@ -102,9 +102,19 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
     'id.co.bitcoin',
       ]
 
-      Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
+Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.
 
   <li>Model</li>
+    Pemodelan dilakukan menggunakan beberapa classifier dari metode machine learning dengan pembagian dataset untuk data train sebanyak 80% dan data test sebanyak 20% yang menghasilkan akurasi berikut ini :
+
+    Akurasi dari Decision Tree Classifier :  50%
+    Akurasi dari Logistic Regression :  64%
+    Akurasi dari Random Forest Classifier :  64%
+    Akurasi dari SVM :  65%
+    Akurasi dari Naive Bayes :  66%
+
+Model dengan akurasi yang paling tinggi lalu akan digunakan untuk menentukan sentiment analisis pada tahap selanjutnya
+
   <li>Output</li>
   <li>Parameter</li>
   <li>Source</li>
