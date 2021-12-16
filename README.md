@@ -103,9 +103,18 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       ]
   </ul>
     <li>Model</li>
+      <ul>Dilakukan pemodelan menggunakan beberapa metode machine learning seperti:
+
+  1. Decision Tree
+  2. Logistic Regression
+  3. Random Forest Classifier
+  4. Support Vector Machine
+
+      Lalu performa model - model tersebut akan dibandingkan dengan melihat metric `accuracy` untuk dipilih sebagai model terbaik.</ul>
     <li>Output</li>
-    <li>Parameter</li>
+      <ul>Berisi hasil dari program yang dijalankan</ul>
     <li>Source</li>
+      <ul>Berisi notebook projek</ul>
 
   </ol>
 
@@ -117,4 +126,4 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <br/>
 
 <h1 id="evaluation">6. Evaluation</h1>
-<div><p align="justify">Dataset yang digunakan, alur pengembangan project.
+<div><p align="justify">Data yang diperoleh dari hasil scraping merupakan file dalam format .csv yang berjumlah sekitar 1200 data.</div>
