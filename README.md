@@ -29,6 +29,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
     <li><a href="#objective">Objective</a></li>
