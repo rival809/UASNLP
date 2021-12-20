@@ -89,7 +89,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       `pip install -r requirements.txt`
 
   <h2 id="usage">Usage</h2>
-    Berikut merupakan panduan untuk menjalankan project ini dari awal hingga mendapatkan kesimpulan, dapat dilakukan dengan cara :
+    Berikut merupakan panduan penjelasan untuk menjalankan project ini, terdapat beberapa tahapan yang harus dilakukan dimulai dari melakukan penarikan data, pembersihan data, sampling data, labeling data, preprocessing data, dan penarikan kesimpulan / sentimen analisis. Tahapan tersebut antara lain adalah :
 
     A. Melakukan penarikan data
       1. Cari aplikasi pada Google Play Store yang akan ditarik datanya, lalu copy application package dari aplikasi tersebut
@@ -97,12 +97,27 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       3. Lalu pada bagian cell ke-4 yang berisikan application packages silahkan paste pada parameter yang sudah disediakan
       4. Jalankan script tersebut sampai data berhasil tersimpan ke dalam folder output dengan format file csv
 
-    B. Melakukan sampling data
+    B. Melakukan pembersihan data
+      1. Buka
+      2. x
+      3. x
+
+    C. Melakukan sampling data
+      1. Buka
+      2. x
+      3. x
+
+    D. Melakukan labeling data
+      1. Buka
+      2. x
+      3. x
+
+    E. Melakukan preprocessing data
       1. x
       2. x
       3. x
 
-    C. Melakukan sentimen analisis
+    F. Melakukan sentimen analisis
       1. x
       2. x
       3. x
