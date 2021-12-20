@@ -74,7 +74,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 </br>
 
   <h2 id="install">Installation</h2>
-    Hal yang pertama kali dilakukan untuk menjalankan project ini yaitu :
+    Hal yang harus dipersiapkan untuk menjalankan project ini yaitu :
     
     1. Melakukan instalasi IDE Visual Studio Code sebagai tools yang akan digunakan dalam melakukan pembuatan code. Jika tidak maka bisa menggunakan Google Colab secara online
     2. Download / Clone project ini ke dalam local storage pada PC anda
@@ -82,8 +82,25 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
     4. Atur kernel menggunakan virtual environtment bawaan yang sudah terintegrasi dengan Anaconda
     5. Buka terminal dalam Visual Studio Code dan lakukan instalasi requirements dengan command 
       `pip install -r requirements.txt`
-  <h2 id="install"></h2>
-  
+
+  <h2 id="usage">Usage</h2>
+    Berikut merupakan panduan untuk menjalankan project ini dari awal hingga mendapatkan kesimpulan, dapat dilakukan dengan cara :
+
+    A. Melakukan penarikan data
+      1. x
+      2. x
+      3. x
+
+    B. Melakukan sampling data
+      1. x
+      2. x
+      3. x
+
+    C. Melakukan sentimen analisis
+      1. x
+      2. x
+      3. x
+
 <h1 id="objective">3. Objective</h1>
 
     1. Sistem dapat menarik data sesuai dengan aplikasi yang telah didefinisikan.
