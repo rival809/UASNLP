@@ -24,6 +24,10 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
   <summary>Table of Content</summary>
   <ol>
     <li><a href="#about">About The Project</a></li>
+      <ul>
+        <li><a href="#bg">Background</a></li>
+        <li><a href="#pps">Purpose</a></li>
+      </ul>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -88,9 +92,10 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
     Berikut merupakan panduan untuk menjalankan project ini dari awal hingga mendapatkan kesimpulan, dapat dilakukan dengan cara :
 
     A. Melakukan penarikan data
-      1. x
-      2. x
-      3. x
+      1. Cari aplikasi pada Google Play Store yang akan ditarik datanya, lalu copy application package dari aplikasi tersebut
+      2. Buka file NLP_Google_Play_Review_Data_Scraper.ipynb
+      3. Lalu pada bagian cell ke-4 yang berisikan application packages silahkan paste pada parameter yang sudah disediakan
+      4. Jalankan script tersebut sampai data berhasil tersimpan ke dalam folder output dengan format file csv
 
     B. Melakukan sampling data
       1. x
