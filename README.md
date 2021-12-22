@@ -98,8 +98,9 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       4. Jalankan script tersebut sampai data berhasil tersimpan ke dalam folder output dengan format file csv
 
     B. Melakukan pembersihan data
-      1. Untuk melakukan pembersihan data kita dapat menjalankan preprocessing.py yang mencakup text cleaning dengan regex, stemmer, stopword, tokenizer, dan juga vectorization.
-      2. Hasil dari data yang telah dibersihkan akan tersimpan pada folder output 
+      1. 
+      2.
+      3.
 
     C. Melakukan sampling data
       1. Untuk melakukan sampling data pastikan data hasil scraping sudah sesuai rename dengan format Data Scraper - Indodax.csv dan simpan di folder data
@@ -113,9 +114,8 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       3. x
 
     E. Melakukan preprocessing data
-      1. x
-      2. x
-      3. x
+      1. Untuk melakukan preprocessing data kita dapat menjalankan preprocessing.py yang mencakup text cleaning dengan regex, stemmer, stopword, tokenizer, dan juga vectorization.
+      2. Hasil dari data yang telah dibersihkan akan tersimpan pada folder output 
 
     F. Melakukan sentimen analisis
       1. x
