@@ -93,19 +93,19 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
     A. Melakukan penarikan data
       1. Cari aplikasi pada Google Play Store yang akan ditarik datanya, lalu copy application package dari aplikasi tersebut
-      2. Buka file NLP_Google_Play_Review_Data_Scraper.ipynb
-      3. Lalu pada bagian cell ke-4 yang berisikan application packages silahkan paste pada parameter yang sudah disediakan
+      2. Buka file scraping.py 
+      3. Apabila ingin mengganti atau menambahkan aplikasi yang akan di ambil datanya, silahkan tambahkan application package yang sudah didapat pada parameter yang sudah disediakan > app_packages 
       4. Jalankan script tersebut sampai data berhasil tersimpan ke dalam folder output dengan format file csv
 
     B. Melakukan pembersihan data
-      1. Buka
-      2. x
-      3. x
+      1. Untuk melakukan pembersihan data kita dapat menjalankan preprocessing.py yang mencakup text cleaning dengan regex, stemmer, stopword, tokenizer, dan juga vectorization.
+      2. Hasil dari data yang telah dibersihkan akan tersimpan pada folder output 
 
     C. Melakukan sampling data
-      1. Buka
-      2. x
-      3. x
+      1. Untuk melakukan sampling data pastikan data hasil scraping sudah sesuai rename dengan format Data Scraper - Indodax.csv dan simpan di folder data
+      2. Lalu jalankan sampling.py untuk melakukan sampling
+      3. Untuk mengatur jumlah sample yang diambil, silahkan buka samplng.py dengan text editor dan atur pada parameter BANYAK_SAMPLE_DATA.
+      4. Secara default sampling menggunakan method `sample` dari library `pandas` sebanyak 700 data.
 
     D. Melakukan labeling data
       1. Buka
@@ -133,7 +133,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 <h1 id="projectstructure">4. Project Structure</h1>
   <ol>
     <li>Data</li>
-      Data yang digunakan merupakan data hasil scrapping menggunakan file NLP_Google_Play_Review_Data_Scraper.ipynb
+      Data yang digunakan merupakan data hasil scrapping menggunakan file NLP_Google_Play_Review_Data_Scraper.ipynb dan atau scraping.py
       Untuk menentukan aplikasi yang akan ditarik datanya maka perlu dikonfigurasikan nama package aplikasi sesuai dengan yang diinginkan. Untuk merubahnya hanya perlu mengganti baris kode pada baris berikut ini
 
       app_packages = [
