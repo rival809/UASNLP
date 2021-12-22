@@ -93,14 +93,15 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
     A. Melakukan penarikan data
       1. Cari aplikasi pada Google Play Store yang akan ditarik datanya, lalu copy application package dari aplikasi tersebut
-      2. Buka file scraping.py 
-      3. Apabila ingin mengganti atau menambahkan aplikasi yang akan di ambil datanya, silahkan tambahkan application package yang sudah didapat pada parameter yang sudah disediakan > app_packages 
+      2. Buka file scraping.py
+      3. Apabila ingin mengganti atau menambahkan aplikasi yang akan di ambil datanya, silahkan tambahkan application package yang sudah didapat pada parameter yang sudah disediakan > app_packages
       4. Jalankan script tersebut sampai data berhasil tersimpan ke dalam folder output dengan format file csv
 
-    B. Melakukan pembersihan data
-      1. 
-      2.
-      3.
+    B. Melakukan preprocessing data
+      1. Buka file NLP_Sentimen_Analisis.ipynb
+      2. Jalankan proses Load Data, dan juga Preprocessing data
+      3. Hidupkan baris code yang berfungsi untuk menyimpan data yang telah dibersihkan ke dalam bentuk csv
+      4. Ambil data pada column "Content" dan simpan dalam format file txt
 
     C. Melakukan sampling data
       1. Untuk melakukan sampling data pastikan data hasil scraping sudah sesuai rename dengan format Data Scraper - Indodax.csv dan simpan di folder data
@@ -109,18 +110,18 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
       4. Secara default sampling menggunakan method `sample` dari library `pandas` sebanyak 700 data.
 
     D. Melakukan labeling data
-      1. Buka
-      2. x
-      3. x
+      1. Buka file hasil dari sampling data dalam format csv menggunakan excel maupun Google Spreadsheet
+      2. Pada column sentiment, silahkan berikan sentiment berdasarkan terkaan anda dengan nilai yang telah ditentukan.
+      (0 = Negatif, 1 = Netral, 2 = Positif.)
+      3. Simpan file tersebut ke dalam bentuk csv
 
-    E. Melakukan preprocessing data
-      1. Untuk melakukan preprocessing data kita dapat menjalankan preprocessing.py yang mencakup text cleaning dengan regex, stemmer, stopword, tokenizer, dan juga vectorization.
-      2. Hasil dari data yang telah dibersihkan akan tersimpan pada folder output 
-
-    F. Melakukan sentimen analisis
-      1. x
-      2. x
-      3. x
+    E. Melakukan sentimen analisis
+      1. Buka kembali file NLP_Sentimen_Analisis.ipynb
+      2. Lanjutkan running baris kode setelah proses preprocessing
+      3. Tunggu hingga proses selesai
+      4. Akurasi dari beberapa model akan muncul
+      5. Gunakan model dengan akurasi tertinggi untuk melakukan sentimen analisis
+      4. Output berupa hasil sentimen, dan Trained model akan tersimpan
 
 <h1 id="objective">3. Objective</h1>
 
