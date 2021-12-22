@@ -175,7 +175,7 @@ Hasil prediksi sentimen yang didapatkan untuk review aplikasi Indodax adalah :
 
 <h1 id="metrics">5. Metrics</h1>
   <div><p align="justify">1. Accuracy.</p></div>
-    Metric akurasi kami gunakan karena nilai dari conffusion matrix False Positive dan False Negative hampir serupa, maka dari itu metrik akurasi akan lebih efektif untuk digunakan. 
+    Metric atau pengukuran yang kami gunakan dalam project ini yaitu akurasi. Accuracy didefinisikan sebagai tingkat kedekatan antara nilai prediksi dengan nilai aktual. Dikarenakan dalam project ini sangat diperlukan tingkat prediksi yang baik demi mendapatkan hasil prediksi yang tepat, maka tentunya akurasi merupakan metrik yang cocok untuk digunakan.
 <br/>
 
 <h1 id="evaluation">6. Evaluation</h1>
