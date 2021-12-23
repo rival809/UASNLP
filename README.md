@@ -93,7 +93,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
     A. Melakukan penarikan data
       1. Cari aplikasi pada Google Play Store yang akan ditarik datanya, lalu copy application package dari aplikasi tersebut
-      2. Buka file scraping.py
+      2. Buka file scraping.py atau nptebook NLP_Google_Play_Review_Data_Scraper.ipnyb pada folder src
       3. Apabila ingin mengganti atau menambahkan aplikasi yang akan di ambil datanya, silahkan tambahkan application package yang sudah didapat pada parameter yang sudah disediakan > app_packages
       4. Jalankan script tersebut sampai data berhasil tersimpan ke dalam folder output dengan format file csv
 
@@ -105,7 +105,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
     C. Melakukan sampling data
       1. Untuk melakukan sampling data pastikan data hasil scraping sudah sesuai rename dengan format Data Scraper - Indodax.csv dan simpan di folder data
-      2. Lalu jalankan sampling.py untuk melakukan sampling
+      2. Lalu jalankan sampling.py atau buka notebook NLP_Sampling_Data.ipnyb untuk melakukan sampling
       3. Untuk mengatur jumlah sample yang diambil, silahkan buka samplng.py dengan text editor dan atur pada parameter BANYAK_SAMPLE_DATA.
       4. Secara default sampling menggunakan method `sample` dari library `pandas` sebanyak 700 data.
 
