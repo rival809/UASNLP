@@ -111,7 +111,7 @@ Dokumentasi penggunaan project dapat dilihat pada konten dibawah ini :
 
     D. Melakukan labeling data
       1. Buka file hasil dari sampling data dalam format csv menggunakan excel maupun Google Spreadsheet
-      2. Pada column sentiment, silahkan berikan sentiment berdasarkan terkaan anda dengan nilai yang telah ditentukan.
+      2. Pada column sentiment, silahkan berikan label sentiment secara manual berdasarkan terkaan anda dengan nilai yang telah ditentukan.
       (0 = Negatif, 1 = Netral, 2 = Positif.)
       3. Simpan file tersebut ke dalam bentuk csv
 
